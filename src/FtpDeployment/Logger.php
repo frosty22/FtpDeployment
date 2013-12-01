@@ -1,6 +1,7 @@
 <?php
 
 namespace FtpDeployment;
+
 use Symfony\Component\Console\Output\OutputInterface;
 
 /**

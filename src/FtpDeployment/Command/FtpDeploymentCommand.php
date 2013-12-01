@@ -192,6 +192,7 @@ class FtpDeploymentCommand extends Command {
 	{
 		$output->writeln("FTP deployment started at " . date("Y/m/d H:i"));
 
+		// TODO: I dont know ho make it better, because dg/ftp-deployment do not use Composer autoloading
 		require_once __DIR__ . "/../../../../../../vendor/dg/ftp-deployment/Deployment/libs/Deployment.php";
 		require_once __DIR__ . "/../../../../../../vendor/dg/ftp-deployment/Deployment/libs/Logger.php";
 		require_once __DIR__ . "/../../../../../../vendor/dg/ftp-deployment/Deployment/libs/Ftp.php";
